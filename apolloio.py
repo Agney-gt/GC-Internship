@@ -66,6 +66,7 @@ def Login():
     driver.get('https://app.apollo.io/#/companies?finderViewId=5b6dfc5a73f47568b2e5f11d')
 
 def CompanyWebsite(x,y,df):
+    print("Abbc")
     driver.get("https://app.apollo.io/#/companies?finderViewId=5a205be49a57e40c095e1d60&qOrganizationName="+x)
     while True:
         try:
