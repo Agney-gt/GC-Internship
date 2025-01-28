@@ -7,6 +7,7 @@ This project automates Google searches and stores the results in multiple format
 - Collects titles, links, and descriptions of search results.
 - Allows the user to choose the number of results to display.
 - Offers options to save results in different file formats.
+- Prevents duplicate results by tracking visited links.
 
 ## Requirements
 - Python 3.7+
