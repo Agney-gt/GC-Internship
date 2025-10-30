@@ -13,7 +13,3 @@ Copy code
 python scraper.py
 
 5. Enter your search query when prompted.
-
-## Disclaimer
-
-Be careful: scraping Google may trigger blocks or CAPTCHA. Review Google’s terms of service.
