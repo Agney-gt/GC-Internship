@@ -13,3 +13,5 @@ Copy code
 python scraper.py
 
 5. Enter your search query when prompted.
+
+Disclaimer-
