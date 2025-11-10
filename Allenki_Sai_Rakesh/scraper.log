@@ -1,0 +1,53 @@
+2025-10-31 22:34:45,534 - INFO - Job scraper started.
+2025-10-31 22:34:45,534 - INFO - Scraping page 1: https://www.indeed.com/jobs?q=python+developer&l=remote&start=0
+2025-10-31 22:34:46,916 - ERROR - Error fetching URL: https://www.indeed.com/jobs?q=python+developer&l=remote&start=0 | HTTP 403 | Forbidden
+2025-10-31 22:34:46,918 - INFO - Backoff 1.4s before retry 1/3
+2025-10-31 22:34:48,934 - ERROR - Error fetching URL: https://www.indeed.com/jobs?q=python+developer&l=remote&start=0 | HTTP 403 | Forbidden
+2025-10-31 22:34:48,936 - INFO - Backoff 2.8s before retry 2/3
+2025-10-31 22:34:52,221 - ERROR - Error fetching URL: https://www.indeed.com/jobs?q=python+developer&l=remote&start=0 | HTTP 403 | Forbidden
+2025-10-31 22:34:52,222 - INFO - Backoff 4.4s before retry 3/3
+2025-10-31 22:34:56,629 - INFO - Attempting Playwright fallback for https://www.indeed.com/jobs?q=python+developer&l=remote&start=0
+2025-10-31 22:35:31,470 - WARNING - All fetch attempts failed for https://www.indeed.com/jobs?q=python+developer&l=remote&start=0
+2025-10-31 22:35:31,470 - WARNING - Skipping page 1 due to fetch error.
+2025-10-31 22:35:33,848 - INFO - Scraping page 2: https://www.indeed.com/jobs?q=python+developer&l=remote&start=10
+2025-10-31 22:35:34,527 - ERROR - Error fetching URL: https://www.indeed.com/jobs?q=python+developer&l=remote&start=10 | HTTP 403 | Forbidden
+2025-10-31 22:35:34,528 - INFO - Backoff 1.9s before retry 1/3
+2025-10-31 22:35:36,989 - ERROR - Error fetching URL: https://www.indeed.com/jobs?q=python+developer&l=remote&start=10 | HTTP 403 | Forbidden
+2025-10-31 22:35:36,991 - INFO - Backoff 2.3s before retry 2/3
+2025-10-31 22:35:39,856 - ERROR - Error fetching URL: https://www.indeed.com/jobs?q=python+developer&l=remote&start=10 | HTTP 403 | Forbidden
+2025-10-31 22:35:39,857 - INFO - Backoff 4.2s before retry 3/3
+2025-10-31 22:35:44,061 - INFO - Attempting Playwright fallback for https://www.indeed.com/jobs?q=python+developer&l=remote&start=10
+2025-10-31 22:36:18,434 - WARNING - All fetch attempts failed for https://www.indeed.com/jobs?q=python+developer&l=remote&start=10
+2025-10-31 22:36:18,434 - WARNING - Skipping page 2 due to fetch error.
+2025-10-31 22:36:21,082 - INFO - Scraping page 3: https://www.indeed.com/jobs?q=python+developer&l=remote&start=20
+2025-10-31 22:36:21,741 - ERROR - Error fetching URL: https://www.indeed.com/jobs?q=python+developer&l=remote&start=20 | HTTP 403 | Forbidden
+2025-10-31 22:36:21,743 - INFO - Backoff 1.9s before retry 1/3
+2025-10-31 22:36:24,232 - ERROR - Error fetching URL: https://www.indeed.com/jobs?q=python+developer&l=remote&start=20 | HTTP 403 | Forbidden
+2025-10-31 22:36:24,233 - INFO - Backoff 2.6s before retry 2/3
+2025-10-31 22:36:27,399 - ERROR - Error fetching URL: https://www.indeed.com/jobs?q=python+developer&l=remote&start=20 | HTTP 403 | Forbidden
+2025-10-31 22:36:27,400 - INFO - Backoff 4.7s before retry 3/3
+2025-10-31 22:36:32,141 - INFO - Attempting Playwright fallback for https://www.indeed.com/jobs?q=python+developer&l=remote&start=20
+2025-10-31 22:36:44,479 - INFO - Playwright fetch succeeded for https://www.indeed.com/jobs?q=python+developer&l=remote&start=20
+2025-10-31 22:36:44,545 - INFO - Extracted 13 jobs from the current page.
+2025-10-31 22:36:47,637 - INFO - Scraping page 4: https://www.indeed.com/jobs?q=python+developer&l=remote&start=30
+2025-10-31 22:36:48,370 - ERROR - Error fetching URL: https://www.indeed.com/jobs?q=python+developer&l=remote&start=30 | HTTP 403 | Forbidden
+2025-10-31 22:36:48,371 - INFO - Backoff 1.9s before retry 1/3
+2025-10-31 22:36:50,815 - ERROR - Error fetching URL: https://www.indeed.com/jobs?q=python+developer&l=remote&start=30 | HTTP 403 | Forbidden
+2025-10-31 22:36:50,817 - INFO - Backoff 2.1s before retry 2/3
+2025-10-31 22:36:53,517 - ERROR - Error fetching URL: https://www.indeed.com/jobs?q=python+developer&l=remote&start=30 | HTTP 403 | Forbidden
+2025-10-31 22:36:53,519 - INFO - Backoff 4.4s before retry 3/3
+2025-10-31 22:36:57,911 - INFO - Attempting Playwright fallback for https://www.indeed.com/jobs?q=python+developer&l=remote&start=30
+2025-10-31 22:37:32,365 - WARNING - All fetch attempts failed for https://www.indeed.com/jobs?q=python+developer&l=remote&start=30
+2025-10-31 22:37:32,366 - WARNING - Skipping page 4 due to fetch error.
+2025-10-31 22:37:35,526 - INFO - Scraping page 5: https://www.indeed.com/jobs?q=python+developer&l=remote&start=40
+2025-10-31 22:37:36,361 - ERROR - Error fetching URL: https://www.indeed.com/jobs?q=python+developer&l=remote&start=40 | HTTP 403 | Forbidden
+2025-10-31 22:37:36,364 - INFO - Backoff 1.8s before retry 1/3
+2025-10-31 22:37:38,994 - ERROR - Error fetching URL: https://www.indeed.com/jobs?q=python+developer&l=remote&start=40 | HTTP 403 | Forbidden
+2025-10-31 22:37:38,996 - INFO - Backoff 2.9s before retry 2/3
+2025-10-31 22:37:43,160 - ERROR - Error fetching URL: https://www.indeed.com/jobs?q=python+developer&l=remote&start=40 | HTTP 403 | Forbidden
+2025-10-31 22:37:43,162 - INFO - Backoff 4.4s before retry 3/3
+2025-10-31 22:37:47,596 - INFO - Attempting Playwright fallback for https://www.indeed.com/jobs?q=python+developer&l=remote&start=40
+2025-10-31 22:37:57,119 - INFO - Playwright fetch succeeded for https://www.indeed.com/jobs?q=python+developer&l=remote&start=40
+2025-10-31 22:37:57,264 - INFO - Extracted 16 jobs from the current page.
+2025-10-31 22:38:00,570 - INFO - Saved 29 job listings to job_listings.csv.
+2025-10-31 22:38:00,570 - INFO - Job scraper finished. Saved results to job_listings.csv
